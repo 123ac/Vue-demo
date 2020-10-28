@@ -1,6 +1,7 @@
 <template>
     <div class="Confirm-app">
         {{msg}}
+        <br />
         <button @click="getButtonClick">{{text}}</button>
     </div>
 </template>
@@ -10,8 +11,8 @@
         name: 'Confirm-app',
         // props 父组件传递给子组件的值
         props:['text'],
-        data () {
-            return{
+        data () { 
+            return{  
                 msg: "Welcome to ConfirmApp"
             }
         },
@@ -28,5 +29,13 @@
 <style>
 .Confirm-app {
     color: #42B983;
+}
+button {
+    width: 100px;
+    height: 45px;
+    background: #4e6ef2;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 10px 10px 10px 10px;
 }
 </style>
