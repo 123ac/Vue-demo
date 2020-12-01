@@ -12,6 +12,7 @@
 <script>
     // 引入 Confirm组件
     import Confirm from '../sub/Confirm'
+    
     export default {
         name: "First",
         data () {
@@ -27,9 +28,11 @@
             // val由子组件传递给父组件的值
             getMessage(val){
                 alert(val);
-            }
-        }
+            } 
+        } ,
+        
     }
+    
 </script>
 
 <!-- style写样式 -->

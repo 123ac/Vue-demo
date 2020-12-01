@@ -5,6 +5,16 @@
 const path = require('path')
 
 module.exports = {
+    //  proxyTable: {
+    //   '/api/*': {
+    //      target:"http://localhost:8090",
+    //     changeOrigin:true,// 允许跨域
+    //     pathRewrite:{
+    //           '^/api': '/api' // 路径重写，使用"/api"代替target.
+    //      }
+    //    }
+    // },
+    
   dev: {
 
     // Paths
